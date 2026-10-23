@@ -1,0 +1,64 @@
+  .kotak_produk{
+
+      gap: 20px;
+
+  }
+
+
+
+
+  .card_produk {
+    /* background: linear-gradient(90deg, #0d4cca, #8101cc); */
+    /* background: linear-gradient(90deg, #2B007B, #520088); */
+
+    
+
+    /* padding: 50px 40px; */
+    /* border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; */
+    /* width: 260px; */
+
+    padding: 0;
+
+    margin-left: 20px;
+    margin-top: 15px;
+
+    color: white;
+    transition: 0.3s ease;
+  }
+
+
+
+
+  .card_produk h2 {
+    font-size: 13px;
+    margin-bottom: 5px;
+
+  }
+
+
+  .card_produk ul {
+
+    margin-bottom: 5px;
+  }
+
+  .card_produk ul li {
+    margin-bottom: 5px;
+    font-size: 8px;
+  }
+
+
+  .harga {
+    font-size: 9px;
+
+    margin-bottom: 5px;
+  
+  }
+
+  .btn_produk {
+
+    padding: 8px 8px;
+    font-size: 8px;
+
+  }

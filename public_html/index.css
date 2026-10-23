@@ -1,0 +1,1671 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+  margin: 0;
+
+  background-color: rgb(41, 41, 41);
+  font-family: Arial, sans-serif;
+}
+
+.halaman{
+  height: fit-content;
+  /* margin-top: 15vh; */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.pembukaan {
+  min-height: 75dvh;
+  padding: 80px;
+  color: white;
+
+  background-image: url("Bg_atas.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.pembukaan h1 {
+  font-size: 38px;
+  margin-bottom: 20px;
+
+  background: linear-gradient(90deg, #CDEEFF, #D6D1FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pembukaan p {
+  width: 100%;
+  max-width: 500px;
+
+  margin: 0 0 28px;
+
+  font-size: 16px;
+  line-height: 1.7;
+
+  color: #ffffff;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #0073FF, #9900FF);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.btn:hover{
+  background: linear-gradient(90deg, #0f7afd, #a011ff);
+}
+
+.isi {
+  
+  /* min-height: 330dvh; */
+  padding: 40px;
+  color: white;
+
+
+  background-image: url("Bg_isi.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+  gap: 10dvh;
+}
+
+
+.fitur{
+  /* background-color: cyan; */
+  padding: 0px;
+
+
+  
+  color: white;
+
+  
+  margin: 0 auto;
+  
+  max-width: 1085px;
+}
+
+.header_fitur{
+  /* background-color: cadetblue; */
+  text-align: center;
+  margin-bottom: 60px;
+  
+}
+
+.header_fitur h1 {
+  font-size: 48px;
+  margin-bottom: 12px;
+
+  background: linear-gradient(90deg, #6dd5ff, #9f7aea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header_fitur p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+/* 
+.isi_fitur{
+  background-color: cornflowerblue;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  gap: 5dvh;
+  padding:50px;
+  
+
+} */
+
+.isi_fitur {
+  background-color: rgb(63, 63, 63);
+  padding: 60px;
+  border-radius: 30px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 30px;
+
+  max-width: 830px;
+  margin: 0 auto;
+  
+  justify-items: center;
+
+ 
+}
+
+
+
+
+
+.kotak_fitur {
+
+  z-index: 1;
+  width: 200px;
+  height: 90px;
+
+  margin: 0;
+
+
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  border-radius: 20px;
+  padding: 0px 20px 100px 20px;
+  text-align: center;
+
+  transition: transform 0.3s ease;
+  
+}
+
+
+.gbr{
+  padding: 10px 10px 10px 10px;
+  width: 35px;
+  height: 35px;
+}
+
+
+.kotak_fitur:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #478bf8, #966bfd);
+  transition: transform 0.3s ease;
+}
+
+.kotak_fitur h3 {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  font-size: 19px;
+
+
+}
+
+.kotak_fitur p {
+  font-size: 13px;
+  color: #e5e7eb;
+}
+
+
+
+
+
+
+
+
+.stat {
+  max-width: 960px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+.kotak_stat {
+  background: linear-gradient(135deg, #5101c2, #531589);
+  padding: 60px;
+  border-radius: 30px;
+  color: white;
+  flex: 1;
+
+  /* margin-left: calc(-50vw + 550px); */
+}
+
+.dlm_stat{
+  display: flex;
+  gap: 20px;
+
+  align-items: center;
+}
+
+.gbr_stat{
+
+  padding: 10px 10px 10px 10px;
+  width: 45px;
+  height: 45px;
+
+}
+
+.kotak_stat:hover {
+  background: linear-gradient(135deg, #590cc4, #561d87);
+
+  transition: transform 0.3s ease;
+}
+
+.kotak_stat h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+
+
+.stat_text {
+  flex: 1;
+  color: white;
+}
+
+.stat_text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+
+  background: linear-gradient(90deg, #6dd5ff, #9f7aea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat_text p {
+  color: #ccc;
+  max-width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.card_produk:hover {
+  
+  background: linear-gradient(180deg, #5a17ab, #6d00d3);
+  box-shadow: 0 0px 35px rgba(128, 10, 255, 0.35);
+
+  
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.produk {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+
+
+}
+
+.produk_item {
+
+  width: 340px;
+  height: 383px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+  background-image: url("Paket_Hemat_Ultra.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.produk_header h1 {
+  font-size: 48px;
+  background: linear-gradient(90deg, #6dd5ff, #9f7aea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.produk_header p {
+  font-size: 20px; 
+  color: #ccc;
+  margin-top: 10px;
+}
+
+
+
+.produk_tab {
+
+  margin-top: 55px;
+  font-weight: bold;
+  cursor: pointer;
+
+  margin-bottom: 35px;
+  font-size: 33px;
+}
+
+.produk_tab a {
+
+  padding: 0px 0px 0px 0px;
+  background: linear-gradient(90deg, #6dd5ff, #9f7aea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: underline;
+}
+
+/* 
+.sub_judul {
+  text-align: left;
+  font-size: 32px;
+  margin: 60px 0 30px 0;
+  color: #6dd5ff;
+} */
+
+
+.sub_judul {
+  
+  text-align: left;
+  
+  padding: 8px 30px;
+  border-radius: 50px;
+  font-size: 20px;
+  margin: 60px 0 30px 0;
+  border: 2px solid #6dd5ff;
+  color: #6dd5ff;
+  font-weight: bold;
+  background: transparent;
+
+  width: 40px;
+  
+}
+
+.sub_judul.host{
+  width: 158px;
+}
+
+
+.kotak_produk {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card_produk {
+  /* background: linear-gradient(90deg, #0d4cca, #8101cc); */
+  /* background: linear-gradient(90deg, #2B007B, #520088); */
+
+  
+
+  /* padding: 50px 40px; */
+  /* border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; */
+  /* width: 260px; */
+
+  margin-left: 60px;
+  margin-top: 30px;
+
+  color: white;
+  transition: 0.3s ease;
+}
+/* 
+.card_produk:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(128, 10, 255, 0.4);
+} */
+
+.card_produk h2 {
+  font-size: 28px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  color: #8bd3ff;
+}
+
+.card_produk ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.card_produk ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.card_produk.hosting{
+
+
+  background: linear-gradient(90deg, #2B007B, #520088);
+
+  
+
+  padding: 50px 40px;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 260px;
+
+
+  border-bottom-left-radius: 30px;
+
+  border-bottom-right-radius: 30px;
+
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+
+.harga {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #8bd3ff;
+}
+
+.harga span {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.btn_produk {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #1e90ff;
+
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+
+  border-radius: 10px;
+  text-decoration: none;
+
+}
+
+.btn_produk:hover {
+  background: #3aa0ff;
+}
+
+.highlight {
+  transform: scale(1.05);
+}
+
+.bonus {
+  width: 303.5px;
+  /* background: linear-gradient(90deg, #003670, #0076E4, #A100FF); */
+  background: linear-gradient(90deg, #1D0052, #37005C);
+  padding: 30px 18px 30px 19px;
+  border-radius: 0 0 25px 25px;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+}
+
+
+.hosting_box {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hosting {
+  width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kontak {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+
+.kontak_header {
+  margin-bottom: 50px;
+}
+
+.kontak_header h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.kontak_header p {
+  color: #ccc;
+}
+
+
+.kontak_box {
+  background: linear-gradient(90deg, #0f5fff, #a100ff);
+  padding: 20px 0px;
+  border-radius: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+  max-width: 600px;
+}
+
+
+.kontak_item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  background: rgba(255,255,255,0.08);
+  padding: 10px 25px;
+  border-radius: 40px;
+
+  transition: 0.3s ease;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+  
+}
+
+.kontak_item:hover {
+  background: rgba(255,255,255,0.15);
+  transform: translateY(-3px);
+}
+
+
+.kontak_item img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+
+.kontak_item {
+  color: white;
+  font-size: 16px;
+}
+
+
+
+
+.info {
+  background: linear-gradient(180deg, #313131, #2b2b2b);
+  padding: 60px 80px;
+  color: #ccc;
+}
+
+.kotak_info {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.info_kiri {
+  max-width: 300px;
+}
+
+.info_tengah h2 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.info_tengah ul {
+  list-style: none;
+  padding: 0;
+}
+
+.info_tengah li {
+  margin-bottom: 8px;
+}
+
+.info_tengah ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info_tengah li {
+    margin-bottom: 10px;
+}
+
+.info_tengah a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.info_tengah a:hover {
+    color: #ffffff;
+}
+
+.info_kanan {
+  display: flex;
+  align-items:flex-end;
+  min-height: 150px;
+  color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+.hx_logo {
+  height: 50px;     
+  width: auto;       
+  object-fit: contain;
+  display: block;
+}
+
+.hx_logo_2{
+  height: 80px;     
+  width: auto;       
+  object-fit: contain;
+  display: block;
+}
+
+
+.head-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 60px 10px 40px;
+  background: linear-gradient(90deg, #003670, #0076E4, #A100FF);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.navs {
+  display: flex;
+  gap: 40px;
+}
+
+.navs a {
+  text-decoration: none;
+}
+
+.head .nav{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-bar {
+  display: none; 
+}
+
+
+
+
+#fitur {
+  scroll-margin-top: 50px;
+  
+}
+
+#stat {
+  scroll-margin-top: 200px;
+  
+}
+
+
+#produk {
+  scroll-margin-top: 60px;
+  
+}
+
+#kontak {
+  scroll-margin-top: 120px;
+}
+
+#vps_section {
+  scroll-margin-top: 120px;
+}
+
+#hosting_section {
+  scroll-margin-top: 120px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .hx_logo {
+    height: 40px;     
+  
+  }
+
+  .hx_logo_2{
+    height: 40px;     
+    width: auto;       
+    object-fit: contain;
+    display: block;
+  }
+
+
+  .navs {
+    display: none;
+  }
+
+  .navs a {
+  text-decoration: none;
+  }
+
+  .hamburger {
+      display: block;
+  }
+
+  .menu-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    background: linear-gradient(90deg, #002043, #0164c1, #8500d2);
+
+    padding: 0 40px;    
+      
+    max-height: 0;
+    overflow: hidden;
+
+    opacity: 0;
+
+    transition: 
+      max-height 0.4s ease,
+      opacity 0.3s ease,
+      padding 0.3s ease;
+  }
+
+  .menu-bar.show {
+    max-height: 500px;
+    padding: 30px 40px;
+    opacity: 1; 
+  }
+
+  .menu-bar .nav {
+    font-size: 22px;
+    color: white;
+  }
+
+  .menu-bar .hx_logo {
+    margin-top: 30px;
+    height: 40px;
+    
+    align-self: flex-end;
+  }
+
+  .head {
+  height: 70px;
+  }
+
+  .halaman {
+    padding-top: 60px;
+  }
+
+
+  .pembukaan {
+  min-height: 0;
+
+  padding: 50px 80px 80px 50px;
+
+  /* padding: 100px 25px 60px 25px; */
+
+  background-image: url("Bg_atas_mob.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  }
+
+
+  .header_fitur h1 {
+    font-size: 28px;
+  }
+
+  .header_fitur p {
+    font-size: 14px;
+  }
+
+
+  .isi {
+    
+    /* min-height: 330dvh; */
+    padding: 20px;
+
+    background-image: url("Bg_isi_mob.webp");
+
+  }
+
+  .isi_fitur {
+
+    padding: 10px;
+
+
+    max-width: 830px;
+
+  
+  }
+
+
+
+
+  .gbr{
+    padding: 5px 10px 5px 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+
+  .kotak_fitur {
+
+
+    width: 120px;
+    height: 90px;
+
+    padding: 0px 20px 75px 20px;
+    
+  }
+
+  .kotak_fitur h3 {
+    font-size: 13px;
+  }
+
+  .kotak_fitur p {
+    font-size: 12px;
+  }
+
+
+
+
+
+
+  .stat {
+  max-width: 960px;
+  width: 100%;
+
+  flex-direction: column-reverse;
+
+  gap: 20px;
+  }
+
+
+  .kotak_stat {
+    padding: 20px;
+
+    /* margin-left: calc(-50vw + 550px); */
+  }
+
+
+
+  .kotak_stat h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+
+
+
+  .stat_text h1 {
+    font-size: 28px;
+
+  }
+
+
+
+
+
+
+
+
+  .produk_header {
+    margin-bottom: 60px;
+  }
+
+  .produk_header h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+
+  }
+
+
+  .produk_tab {
+    margin: 0 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+    margin-bottom: 50px;
+    font-size: 19px;
+  }
+
+  .produk_tab a {
+
+    padding: 0px 30px 0px 30px;
+    background: linear-gradient(90deg, #6dd5ff, #9f7aea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+  }
+
+
+
+
+  .kotak_produk{
+
+    gap: 30px;
+
+  }
+
+  
+
+
+  .card_produk {
+    padding: 20px 20px;
+
+    width: 125px;
+
+  }
+
+
+
+  .card_produk h2 {
+    font-size: 23px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .card_produk ul {
+
+    margin-bottom: 30px;
+  }
+
+  .card_produk ul li {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+
+
+  .harga {
+    font-size: 23px;
+
+    margin-bottom: 30px;
+  
+  }
+
+
+
+
+  .btn_produk {
+
+    padding: 12px 12px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .bonus {
+    width: 125px;
+    background: linear-gradient(90deg, #1D0052, #37005C);
+    /* padding: 30px 18px 30px 19px; */
+
+    padding: 20px;
+    border-radius: 0 0 25px 25px;
+    font-size: 9px;
+    color: white;
+    text-align: left;
+  }
+
+
+
+
+
+
+  .kontak {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    align-items: center;
+  }
+
+
+  .kontak_header {
+    margin-bottom: 0px;
+  }
+
+  .kontak_header h1 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .kontak_header p {
+    color: #ccc;
+    font-size: 15px;
+  }
+
+
+  .kontak_box {
+    background: linear-gradient(90deg, #0f5fff, #a100ff);
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+    max-width: 50%;
+  }
+
+
+  .kontak_item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 5px 5px;
+    border-radius: 40px;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    
+  }
+
+  .dlm_item{
+    width: 120px;
+
+    font-size: 12px;
+  }
+
+
+
+  .kontak_item img {
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+  }
+
+
+  .kontak_item {
+    color: white;
+    font-size: 8px;
+  }
+
+
+
+
+
+
+
+
+
+  .info {
+    background: linear-gradient(180deg, #313131, #2b2b2b);
+    padding: 10px 20px 10px 20px;
+    color: #ccc;
+  }
+
+  .kotak_info {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .info_kiri {
+    max-width: 35%;
+  }
+
+  .info_kiri p{
+    font-size: 13px;
+  }
+
+  .info_tengah h2 {
+    color: white;
+    margin-bottom: 13px;
+
+    font-size: 10px;
+  }
+
+  .info_tengah ul {
+    list-style: none;
+    padding: 0;
+    font-size: 7px;
+  }
+
+  .info_tengah li {
+    margin-bottom: 8px;
+  }
+
+  .info_kanan {
+    display: flex;
+    align-items:flex-end;
+    min-height: 150px;
+    color: #aaa;
+  }
+
+  .info_kanan p{
+    font-size: 10px;
+  }
+
+
+
+  #fitur {
+  scroll-margin-top: 90px;
+  
+  }
+
+  #stat {
+    scroll-margin-top: 200px;
+    
+  }
+
+
+  #produk {
+    scroll-margin-top: 80px;
+    
+  }
+
+
+}
+
+
+
+@media (max-width: 450px) {
+
+  .menu-bar a {
+    text-decoration: none;
+  }
+
+
+  .kotak_produk{
+
+      gap: 20px;
+
+  }
+
+
+  .produk_item {
+
+    width: 150px;
+    height: 193px;
+
+    margin-right: 20px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    background-image: url("card_.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+
+    padding: 0;
+  }
+
+
+  
+
+  
+
+
+    .kotak_produk {
+        width: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+        gap: 12px;
+        flex-wrap: nowrap;
+    }
+
+
+    .produk_item {
+        width: 155px;
+        height: 175px;
+
+        flex: 0 0 155px;
+
+        margin: 0;
+        padding: 0;
+
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    .card_produk {
+        width: 100%;
+        height: 100%;
+
+        margin-left: 30px;
+        margin-top: 15px;
+        padding: 0;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+    }
+
+
+    .card_produk h2 {
+        margin: 0 0 5px;
+
+        font-size: 14px;
+
+        line-height: 1.1;
+
+        text-align: center;
+    }
+
+
+    .card_produk h3 {
+        margin: 0 0 8px;
+
+        font-size: 11px;
+
+        line-height: 1.2;
+
+        text-align: center;
+    }
+
+
+    .card_produk ul {
+        margin: 0 0 8px;
+
+        padding: 0;
+
+        list-style: none;
+
+        text-align: center;
+    }
+
+
+    .card_produk ul li {
+        margin-bottom: 3px;
+
+        font-size: 9px;
+
+        line-height: 1.2;
+    }
+
+
+    .harga {
+        margin-bottom: 8px;
+
+        font-size: 11px;
+
+        line-height: 1.2;
+
+        text-align: center;
+    }
+
+
+    .btn_produk {
+        padding: 7px 12px;
+
+        font-size: 9px;
+
+        border-radius: 8px;
+    }
+
+
+
+
+   .bonus {
+    width: 110px;
+    background: linear-gradient(90deg, #1D0052, #37005C);
+    /* padding: 30px 18px 30px 19px; */
+
+    padding: 20px;
+    border-radius: 0 0 25px 25px;
+    font-size: 9px;
+    color: white;
+    text-align: left;
+  }
+
+
+  .card_produk.hosting{
+
+
+    background: linear-gradient(90deg, #2B007B, #520088);
+
+    
+
+    padding: 40px 40px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: auto;
+
+
+    border-bottom-left-radius: 30px;
+
+    border-bottom-right-radius: 30px;
+
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+
+
+
+
+  
+  
+}
+
+
+
+@media (max-width: 400px) {
+
+
+
+  .kotak_fitur {
+
+
+    width: 90px;
+    height: 90px;
+
+    padding: 0px 20px 80px 20px;
+    
+  }
+
+
+
+  .produk_tab {
+    
+    font-size: 16px;
+  }
+
+
+  .sub_judul {
+  
+    text-align: left;
+    
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    margin: 30px 0 30px 0;
+    border: 2px solid #6dd5ff;
+    color: #6dd5ff;
+    font-weight: bold;
+    background: transparent;
+
+    width: 30px;
+    
+  }
+
+  .sub_judul.host{
+    width: 110px;
+  }
+
+  
+
+
+
+  .gbr{
+    padding: 5px 10px 5px 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+
+
+
+
+  .kotak_fitur h3 {
+    font-size: 12px;
+  }
+
+  .kotak_fitur p {
+    font-size: 9.91px;
+  }
+
+
+
+  .kotak_produk{
+
+      gap: 20px;
+
+  }
+
+
+  .produk_item {
+
+    width: 140px;
+    height: 183px;
+
+    margin-right: 20px;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    background-image: url("card_.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+
+    padding: 0;
+  }
+
+
+  
+
+  
+
+
+    .kotak_produk {
+        gap: 8px;
+    }
+
+
+    .produk_item {
+        width: 145px;
+        height: 165px;
+
+        flex-basis: 145px;
+    }
+
+
+    .card_produk {
+        padding: 28px 6px 7px;
+    }
+
+
+    .card_produk h2 {
+        font-size: 15px;
+    }
+
+
+    .card_produk h3 {
+        font-size: 10px;
+
+        margin-bottom: 7px;
+    }
+
+
+    .card_produk ul {
+        margin-bottom: 7px;
+    }
+
+
+    .card_produk ul li {
+        font-size: 8px;
+
+        margin-bottom: 2px;
+    }
+
+
+    .harga {
+        font-size: 10px;
+
+        margin-bottom: 7px;
+    }
+
+
+    .btn_produk {
+        padding: 6px 10px;
+
+        font-size: 8px;
+    }
+
+
+
+
+
+   .bonus {
+    width: 110px;
+    background: linear-gradient(90deg, #1D0052, #37005C);
+    /* padding: 30px 18px 30px 19px; */
+
+    padding: 20px;
+    border-radius: 0 0 25px 25px;
+    font-size: 9px;
+    color: white;
+    text-align: left;
+  }
+
+
+  .card_produk.hosting{
+
+
+    background: linear-gradient(90deg, #2B007B, #520088);
+
+    
+
+    padding: 40px 40px;
+    border-radius: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: auto;
+
+
+    border-bottom-left-radius: 30px;
+
+    border-bottom-right-radius: 30px;
+
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+
+
+  
+
+
+
+
+
+  .dlm_stat h2{
+    font-size: 18px;
+  }
+
+
+}
+
+
+
